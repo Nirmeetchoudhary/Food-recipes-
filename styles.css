@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.recipe-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recipe-details {
+    margin-top: 20px;
+}
+
+.recipe-details h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.recipe-details ul, .recipe-details ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.comments {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.related-recipes {
+    list-style-type: none;
+    padding: 0;
+}
+
+.related-recipes li {
+    margin-bottom: 10px;
+}
+
+.related-recipes a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.related-recipes a:hover {
+    text-decoration: underline;
+}
+
+
+
+.recipe-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.recipe-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recipe-details {
+    margin-top: 10px;
+}
+
+.recipe-details h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.recipe-details ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.recipe-details p {
+    margin: 5px 0;
+}
